@@ -55,7 +55,7 @@ I will state some conclusions from the results and in addition to the comparison
 * As I supplied more labeled samples, the accuracy of the model has improved, for both datasets. This makes sense because I teach the model more information about the data, and it makes it more accurate when testing it. The same thing happened in the results of the paper.
 * The accuracy on the MNIST dataset is much better than the Fashion MNIST dataset. The Fashion MNIST has more complicated images compared to the MNIST dataset and has more details. The work of the paper based on the MNIST dataset, so the model they developed optimized on this dataset. For this reason, it is logical that the model will achieve better results on the original dataset.
 * Compared to the results of the paper, they reached better results than I did (on the MNIST dataset). This probably happened because a few main reasons:
-** They used Transductive SVM and implemented regular one with RBF kernel.
-** They trained the model with ~9999999 epochs (shown in the code) and I ran only 100.
-** There may be additional differences in the implementations.
+  - They used Transductive SVM and implemented regular one with RBF kernel.
+  - They trained the model with ~9999999 epochs (shown in the code) and I ran only 100.
+  - There may be additional differences in the implementations.
 * In conclusion, I got a very high accuracy for MNIST dataset of 95.59% and a decent accuracy of 81.66% for the Fashion MNIST dataset. It means the method suggested in the paper is very effective.
